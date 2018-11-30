@@ -76,8 +76,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <modules>
-        <module>springbootDemo-dal</module>
-    </modules>
 </project>
