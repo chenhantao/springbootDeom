@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.cht</groupId>
-    <artifactId>springboot</artifactId>
+    <artifactId>springbootDemo</artifactId>
     <version>1.0.0</version>
     <modules>
         <module>parent</module>
