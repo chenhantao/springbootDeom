@@ -6,7 +6,7 @@
     <groupId>com.cht</groupId>
     <artifactId>springbootDemo</artifactId>
     <version>1.0.0</version>
-    <packaging>war</packaging>
+
     <name>springbootDemo</name>
 
     <properties>
@@ -66,6 +66,12 @@
                 <scope>test</scope>
                 <version>5.1.38</version>
             </dependency>
+            <!-- fastjson -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.47</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <build>
@@ -76,4 +82,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <modules>
+        <module>springbootDemo-common</module>
+        <module>springbootDemo-dal</module>
+        <module>springbootDemo-biz</module>
+        <module>springbootDemo-web</module>
+    </modules>
+    <packaging>pom</packaging>
 </project>
