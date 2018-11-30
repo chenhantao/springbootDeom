@@ -4,11 +4,11 @@
 简单的springboot的demo，会混入一点kotlin
 
 #### 软件架构
-采用框架如下： 
-springboot
-mybatis
-springMVC
-pagehelper
+采用框架如下：  
+springboot  
+mybatis  
+springMVC  
+pagehelper  
 MyMapper
 
 #### 安装教程
