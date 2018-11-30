@@ -17,6 +17,10 @@
 
     <modules>
         <module>expressSystem-parent</module>
+        <module>expressSystem-dal</module>
+        <module>expressSystem-common</module>
+        <module>expressSystem-web</module>
+        <module>expressSystem-biz</module>
     </modules>
 
 </project>

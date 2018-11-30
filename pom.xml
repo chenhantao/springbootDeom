@@ -6,12 +6,12 @@
     <groupId>com.cht</groupId>
     <artifactId>springbootDemo</artifactId>
     <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>springbootDemo</name>
+
+
     <modules>
         <module>springbootDemo-parent</module>
         <module>springbootDemo-expressSystem</module>
     </modules>
-    <packaging>pom</packaging>
-
-    <name>springbootDemo</name>
-
 </project>
