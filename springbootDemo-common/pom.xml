@@ -6,10 +6,19 @@
         <artifactId>springbootDemo-parent</artifactId>
         <groupId>com.cht</groupId>
         <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>springbootDemo-common</artifactId>
 
+
+    <dependencies>
+        <dependency>
+            <groupId>com.cht</groupId>
+            <artifactId>springbootDemo-parent</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 
 </project>
