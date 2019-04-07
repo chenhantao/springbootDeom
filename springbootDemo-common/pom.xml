@@ -13,12 +13,4 @@
     <artifactId>springbootDemo-common</artifactId>
 
 
-    <dependencies>
-        <dependency>
-            <groupId>com.cht</groupId>
-            <artifactId>springbootDemo-parent</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-    </dependencies>
-
 </project>
