@@ -6,5 +6,9 @@ package cht.dal;
  * @author chenhantao
  * @since 2019/4/8
  */
-public class User {
+public class User implements Comparable{
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
 }
