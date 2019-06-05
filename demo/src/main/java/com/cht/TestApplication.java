@@ -4,12 +4,14 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
+ * TODO
+ *
  * @author chenhantao
- * @since 2018/11/30
+ * @since 2019/6/5
  */
-//@SpringBootApplication
-public class Application {
+@SpringBootApplication
+public class TestApplication {
     public static void main(String[] args) {
-        SpringApplication.run(Application.class);
+        SpringApplication.run(TestApplication.class);
     }
 }
