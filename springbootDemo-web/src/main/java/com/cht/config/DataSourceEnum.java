@@ -7,7 +7,9 @@ package com.cht.config;
  * @since 2019/6/6
  */
 public enum DataSourceEnum {
-    MASTER("master"), SLAVE1("slave1");
+    MASTER("master"),
+    SLAVE1("slave1"),
+    ;
 
     private String value;
 
