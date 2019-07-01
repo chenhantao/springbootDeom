@@ -29,6 +29,7 @@ public class CDPlayerTest {
             System.out.println("null");
         } else {
             System.out.println("not null");
+            cd.play();
         }
     }
 }
